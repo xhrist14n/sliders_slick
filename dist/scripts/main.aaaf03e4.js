@@ -1,0 +1,1 @@
+console.log("'Allo 'Allo!"),$(function(){$(".one-time").slick({dots:!1,infinite:!0,speed:300,slidesToShow:5,touchMove:!1,slidesToScroll:1}),hljs.initHighlightingOnLoad()});
