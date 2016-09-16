@@ -1,0 +1,39 @@
+{
+  "name": "sliders-slick",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "slick-carousel": "^1.6.0",
+    "highlight": "^9.6.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    },
+    "highlight":{
+      "main":[
+        "src/styles/monokai.css",
+        "src/highlight.js"
+      ]
+    },
+    "slick-carousel":{
+      "main": [
+          "slick/slick.js",
+          "slick/slick.css",
+          "slick/slick-theme.css",
+          "slick/slick.less",
+          "slick/slick.scss"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
